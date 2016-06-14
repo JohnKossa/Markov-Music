@@ -101,7 +101,7 @@ function repeat(callback, times){
     }
 }
 
-seedWeights("uniform");
+seedWeights("repeat");
 
 repeat(function(){walkSequence(seeds.major_scale)}, 10000);
 repeat(function(){walkSequence(seeds.repeat)}, 10000);
